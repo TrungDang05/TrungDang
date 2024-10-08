@@ -1,130 +1,960 @@
-/* Global Styles */
-body {
-    margin: 0;
-    font-family: 'Julius Sans One', sans-serif;
-    background: #F9F1F0;
-}
+/* bentolio */
 
-/* Container */
-.container {
-    position: relative;
-    width: 1440px;
-    height: 1024px;
-}
+position: relative;
+width: 1440px;
+height: 1024px;
 
-/* Contact Section */
-.contact {
-    position: absolute;
-    width: 448px;
-    height: 351px;
-    left: 496px;
-    top: 649px;
-    background: #AEB8D5;
-    border-radius: 20px;
-}
+background: #F9F1F0;
 
-.contact-title {
-    position: absolute;
-    width: 299px;
-    height: 60px;
-    left: 24px;
-    top: 259px;
-    font-size: 55px;
-    color: #000;
-}
 
-/* Header */
-.header {
-    position: absolute;
-    width: 1392px;
-    height: 101px;
-    left: 24px;
-    top: 24px;
-    background: #E4E7F1;
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-}
+/* CONTACT */
 
-.logo {
-    font-size: 25px;
-    text-transform: uppercase;
-}
+position: absolute;
+width: 448px;
+height: 351px;
+left: 496px;
+top: 649px;
 
-/* Links */
-.nav-links {
-    display: flex;
-    gap: 88px;
-}
+background: #AEB8D5;
+border-radius: 20px;
 
-.nav-link {
-    font-size: 16px;
-    color: #000;
-    text-transform: uppercase;
-}
 
-/* About Section */
-.about {
-    position: absolute;
-    width: 448px;
-    height: 351px;
-    left: 24px;
-    top: 649px;
-    background: #E4E7F1;
-    border-radius: 20px;
-}
+/* Contact me */
 
-.about-icon {
-    position: absolute;
-    width: 38px;
-    height: 38px;
-    left: 24px;
-    top: 32px;
-    background: #93A0C8;
-}
+position: absolute;
+width: 299px;
+height: 60px;
+left: 24px;
+top: 259px;
 
-/* Work Section */
-.work {
-    position: absolute;
-    width: 447px;
-    height: 726px;
-    left: 967px;
-    top: 148.78px;
-    background: #E4E7F1;
-    border-radius: 20px;
-}
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 60px;
+/* identical to box height */
 
-.item {
-    position: absolute;
-    width: 399px;
-    height: 71px;
-    left: 23px;
-}
+color: #000000;
 
-/* Social Links */
-.socials {
-    position: absolute;
-    width: 448px;
-    height: 101px;
-    left: 967px;
-    top: 898.78px;
-    background: #E4E7F1;
-    border-radius: 20px;
-}
 
-/* Specific Icons */
-.social-icon {
-    width: 24px; /* Adjust as needed */
-    height: 24px; /* Adjust as needed */
-}
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-        height: auto;
-    }
-    /* Add responsive adjustments here */
-}
+/* TOP BAR */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+gap: 284px;
+
+position: absolute;
+width: 400px;
+height: 38px;
+left: calc(50% - 400px/2 - 0px);
+top: 30px;
+
+
+
+/* Have some questions? */
+
+margin: 0 auto;
+width: 89px;
+height: 32px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ARROW */
+
+margin: 0 auto;
+width: 38px;
+height: 38px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 23.33%;
+right: 20%;
+top: 20%;
+bottom: 23.33%;
+
+background: #000000;
+
+
+/* ABOUT */
+
+position: absolute;
+width: 448px;
+height: 351px;
+left: 24px;
+top: 649px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* CIRCLE ICON */
+
+position: absolute;
+width: 38px;
+height: 38px;
+left: 24px;
+top: 32px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: -0.01%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #93A0C8;
+
+
+/* Trung Dang is a visionary video editor, known for combining cinematic storytelling with advanced video editing techniques. Based in Vietnam, he specializes in crafting visually captivating narratives that resonate with audiences globally, making high-quality content accessible to creators and brands everywhere. */
+
+position: absolute;
+width: 351px;
+height: 225px;
+left: 48px;
+top: calc(50% - 225px/2 + 350.28px);
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+/* or 156% */
+
+color: #000000;
+
+
+
+/* WORK */
+
+position: absolute;
+width: 447px;
+height: 726px;
+left: 967px;
+top: 148.78px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* ITEM 4 */
+
+position: absolute;
+width: 399px;
+height: 71px;
+left: 23px;
+top: 651px;
+
+
+
+/* ITEM 3 */
+
+position: absolute;
+width: 399px;
+height: 71px;
+left: 23px;
+top: 651px;
+
+
+
+/* BORDER */
+
+position: absolute;
+width: 399px;
+height: 0px;
+left: calc(50% - 399px/2 - 1px);
+top: 722px;
+
+border: 2px solid #93A0C8;
+
+
+/* Detail and Organization */
+
+position: absolute;
+width: 277px;
+height: 27px;
+left: 23px;
+top: 651px;
+
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+/* Detail and Organization */
+
+position: absolute;
+width: 277px;
+height: 27px;
+left: 23px;
+top: 651px;
+
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+/* ITEM 3 */
+
+position: absolute;
+width: 399px;
+height: 71px;
+left: 24px;
+top: 538px;
+
+
+
+/* BORDER */
+
+position: absolute;
+width: 399px;
+height: 0px;
+left: calc(50% - 399px/2 + 0px);
+top: 609px;
+
+border: 2px solid #93A0C8;
+
+
+/* Storytelling and Creative Vision */
+
+position: absolute;
+width: 364px;
+height: 27px;
+left: 24px;
+top: 538px;
+
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+/* ITEM 2 */
+
+position: absolute;
+width: 399px;
+height: 72px;
+left: 24px;
+top: 425px;
+
+
+
+/* BORDER */
+
+position: absolute;
+width: 399px;
+height: 0px;
+left: calc(50% - 399px/2 + 0px);
+top: 497px;
+
+border: 2px solid #93A0C8;
+
+
+/* Technical Proficiency */
+
+position: absolute;
+width: 241px;
+height: 27px;
+left: 24px;
+top: 425px;
+
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+/* ITEM 1 */
+
+position: absolute;
+width: 399px;
+height: 350px;
+left: 24px;
+top: 34px;
+
+
+
+/* BORDER */
+
+position: absolute;
+width: 399px;
+height: 0px;
+left: calc(50% - 399px/2 + 0px);
+top: 384px;
+
+border: 2px solid #93A0C8;
+
+
+/* IMAGE */
+
+position: absolute;
+width: 399px;
+height: 269px;
+left: 24px;
+top: 85px;
+
+border-radius: 16px;
+
+
+/* DSCF8914 */
+
+position: absolute;
+width: 399px;
+height: 400px;
+left: 0px;
+top: -65.22px;
+
+background: url(DSCF8914.jpg);
+
+
+/* Skills */
+
+position: absolute;
+width: 58px;
+height: 27px;
+left: 24px;
+top: 34px;
+
+font-family: 'JejuGothic';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 27px;
+
+color: #000000;
+
+
+
+/* Crafting compelling narratives through innovative storytelling and creative vision */
+
+position: absolute;
+width: 398px;
+height: 26px;
+left: 24px;
+top: 574px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+
+color: #000000;
+
+
+
+/* Meticulous attention to detail and strong organizational skills for seamless project execution. */
+
+position: absolute;
+width: 398px;
+height: 26px;
+left: 23px;
+top: 686px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+
+color: #000000;
+
+
+
+/* Delivering high-quality content that elevates storytelling. */
+
+position: absolute;
+width: 389px;
+height: 13px;
+left: 991px;
+top: 624.78px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 13px;
+/* identical to box height */
+
+color: #000000;
+
+
+
+/* Frame 17 */
+
+position: absolute;
+width: 330px;
+height: 476px;
+left: 615px;
+top: 148.78px;
+
+
+
+/* Frame 18 */
+
+position: absolute;
+width: 330px;
+height: 476px;
+left: 0px;
+top: 0px;
+
+
+
+/* Frame 16 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 330px;
+height: 476px;
+left: 0px;
+top: 0px;
+
+
+
+/* PORTRAIT */
+
+width: 330px;
+height: 476px;
+
+border-radius: 20px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* DSCF8649-Enhanced-NR */
+
+position: absolute;
+width: 355px;
+height: 556px;
+left: -25px;
+top: -40px;
+
+background: url(DSCF8649-Enhanced-NR.jpg);
+
+
+/* DSCF8649-Enhanced-NR 1 */
+
+position: absolute;
+width: 4096px;
+height: 2730px;
+left: -1824px;
+top: -719.22px;
+
+
+
+/* SLOGAN/INTRO */
+
+position: absolute;
+width: 565px;
+height: 479px;
+left: 24px;
+top: 146px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* Artist Redefining Video Editing with Cinematic View */
+
+position: absolute;
+width: 475px;
+height: 168px;
+left: 24px;
+top: calc(50% - 168px/2 + 69.5px);
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 100%;
+/* or 56px */
+
+color: #000000;
+
+
+
+/* FLOWER ICON */
+
+position: absolute;
+width: 119px;
+height: 119px;
+left: 416px;
+top: 34px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 0%;
+right: -0.01%;
+top: 0.03%;
+bottom: -0.01%;
+
+background: #93A0C8;
+
+
+/* HEADER */
+
+position: absolute;
+width: 1392px;
+height: 101px;
+left: 24px;
+top: 24px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* NAV */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 885px;
+
+position: absolute;
+width: 1343px;
+height: 100px;
+left: calc(50% - 1343px/2 - 0.5px);
+top: calc(50% - 100px/2 - 0px);
+
+
+
+/* LOGO */
+
+margin: 0 auto;
+width: 156px;
+height: 20px;
+
+font-family: 'Italiana';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 15 */
+
+margin: 0 auto;
+width: 100px;
+height: 100px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* PAGE LINKS */
+
+margin: 0 auto;
+width: 303px;
+height: 11px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 14 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 88px;
+
+position: absolute;
+width: 303px;
+height: 11px;
+left: calc(50% - 303px/2 + 520px);
+top: 44.5px;
+
+
+
+/* PROJECTS */
+
+margin: 0 auto;
+width: 78px;
+height: 11px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ABOUT */
+
+margin: 0 auto;
+width: 57px;
+height: 11px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* CONTACT */
+
+margin: 0 auto;
+width: 80px;
+height: 11px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* LINKS */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 88px;
+
+position: absolute;
+width: 334px;
+height: 11px;
+left: calc(50% - 334px/2 + 471px);
+top: calc(50% - 11px/2 + 437.28px);
+
+
+
+/* SOCIALS */
+
+position: absolute;
+width: 448px;
+height: 101px;
+left: 967px;
+top: 898.78px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* SOCIALS */
+
+position: absolute;
+width: 138px;
+height: 101px;
+left: 163px;
+top: 0px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* LINKS */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 88px;
+
+position: absolute;
+width: 334px;
+height: 11px;
+left: calc(50% - 334px/2);
+top: calc(50% - 11px/2);
+
+
+
+/* Facebook */
+
+margin: 0 auto;
+width: 82px;
+height: 11px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* SOCIALS */
+
+position: absolute;
+width: 124px;
+height: 101px;
+left: 292px;
+top: 0px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* LINKS */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 88px;
+
+position: absolute;
+width: 334px;
+height: 11px;
+left: calc(50% - 334px/2);
+top: calc(50% - 11px/2);
+
+
+
+/* Youtube */
+
+margin: 0 auto;
+width: 73px;
+height: 11px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Link 2
+
+Keywords: chain, url
+*/
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 406px;
+top: 11px;
+
+
+
+/* Icon */
+
+position: absolute;
+left: 4.17%;
+right: 4.17%;
+top: 29.17%;
+bottom: 29.17%;
+
+border: 2px solid #1E1E1E;
+
+
+/* SOCIALS */
+
+position: absolute;
+width: 133px;
+height: 101px;
+left: 35px;
+top: 0px;
+
+background: #E4E7F1;
+border-radius: 20px;
+
+
+/* LINKS */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 88px;
+
+position: absolute;
+width: 334px;
+height: 11px;
+left: calc(50% - 334px/2 + 0.5px);
+top: calc(50% - 11px/2);
+
+
+
+/* Instagram */
+
+margin: 0 auto;
+width: 90px;
+height: 11px;
+
+font-family: 'Julius Sans One';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-transform: uppercase;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
